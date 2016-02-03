@@ -1,0 +1,8 @@
+ARRAY_NAME=\"GPDB SNE\"
+MACHINE_LIST_FILE=/home/gpadmin/sne_hostlist
+SEG_PREFIX=gpsne
+PORT_BASE=50000
+declare -a DATA_DIRECTORY=(/data/gpseg1 /data/gpseg2)
+MASTER_HOSTNAME=$(hostname)
+MASTER_DIRECTORY=/data/gpmaster
+MASTER_PORT=5432
